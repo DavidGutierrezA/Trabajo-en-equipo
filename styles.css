@@ -6,28 +6,41 @@ header {
     width: 100%;
     height: 300px;
     /*
-    Aqui dejo la imagen por si se te ocurre como ponerla
-    
-    background-image: url(Imagenes/Cuarteto.jpeg);
+    background-image: url(Imagenes/cuartetoportada.jpg);
     background-repeat: no-repeat;
-    background-size: 1900px;
-    
+    background-size: 1300px;
     */
     top: 0px;
     display: flex;
     background-color: #FDA69F;
 
 }
+.foto{
+    width: 1500px;
+}
 
 .titulo {
+    position: absolute; /*Agregue el position para que el titulo quedara encima de la imagen*/
     width: 400px;
     height: 50px;
-    margin-left: 27%;
-    line-height: 210px;
+    margin-left: 50%; 
+    line-height: 30px;
 }
 
 .logo {
     height: 300px;
     width: 300px;   
     justify-content: left;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 270px;
+
+}
+.text-footer{
+    padding-top: 20px;
 }
