@@ -33,6 +33,17 @@ header {
     justify-content: left;
 }
 
+.album-botones{
+    margin: 50px;
+}
+.img-botones{
+    width: 150px;
+    height: 150px;
+    
+}
+.album-botones button{
+    display: inline-block;
+}
 .footer{
     background-color: black;
     color: white;
